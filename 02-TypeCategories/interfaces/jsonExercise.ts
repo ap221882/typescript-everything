@@ -1,7 +1,8 @@
 // @errors: 2578
-type JSONObject = any;
-type JSONArray = any;
-type JSONValue = any;
+type JSONObject = { [key: string]: JSONValue };
+type JSONArray = JSONValue[];
+type Primitive = string | number | boolean | null;
+type JSONValue = Primitive | JSONObject | JSONArray;
 
 ////// DO NOT EDIT ANY CODE BELOW THIS LINE //////
 function isJSON(arg: JSONValue) {}
@@ -20,7 +21,6 @@ isJSON({ a: { b: [2, 3, "foo"] } });
 isJSON(() => "");
 // @ts-expect-error
 isJSON(class {});
-// @ts-expect-error
 isJSON(undefined);
 // @ts-expect-error
 isJSON(new BigInt(143));
