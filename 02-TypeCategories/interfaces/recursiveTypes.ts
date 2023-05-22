@@ -1,0 +1,1 @@
+type NestedArray = number | NestedArray[];
