@@ -1,0 +1,11 @@
+On Right Hand Side of `=`  - the declaration is treated as value
+On Left Hand Side of `=` - the declaration is treated as type
+
+
+For namespaces, tooltips tell you that it is a namespace. 
+-- namespaces are used for the old JS types to be described or the new custom html elements etc. 
+
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+Classes can be types and values both declarations
