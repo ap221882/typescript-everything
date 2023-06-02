@@ -1,4 +1,4 @@
-# typescript-everything
+# Typescript Everything
 
 ### Introduction
 
