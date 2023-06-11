@@ -1,4 +1,3 @@
-// @errors: 2578
 type JSONObject = { [key: string]: JSONValue };
 type JSONArray = JSONValue[];
 type Primitive = string | number | boolean | null;
